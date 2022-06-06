@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 # https://github.com/ruabmbua/hidapi-rs/issues/68
 #hidapi = { version = "1.4", default-features = false, features = ["linux-shared-hidraw"] }
-hidapi = "1.4"
-zbus = "2.2"
+hidapi = "1.4.1"
+zbus = "2.2.0"
