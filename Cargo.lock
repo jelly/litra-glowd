@@ -308,8 +308,10 @@ checksum = "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836"
 name = "litra-glowd"
 version = "0.1.0"
 dependencies = [
+ "event-listener",
  "hidapi",
  "zbus",
+ "zbus_macros",
 ]
 
 [[package]]
